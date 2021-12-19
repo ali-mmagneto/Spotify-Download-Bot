@@ -20,11 +20,11 @@ def txtfinder(txt):
     return txt
 
 def cantfind(chat_id):
-    bot.sendSticker(chat_id, 'CAACAgQAAxkBAAIBE2BLNclvKLFHC-grzNdOEXKGl6cLAALzAAMSp2oDSBk1Yo7wCGUeBA')
+    bot.sendSticker(chat_id, 'CAACAgQAAxkBAAENH5phv52sd0Wz8El4xl4k917O2-lTFQACiAwAApR9AAFScJSLLR94puIjBA')
     bot.sendMessage(chat_id, "can't find it")
 
 def cantfindone(chat_id):
-    bot.sendSticker(chat_id, 'CAACAgQAAxkBAAIFSWBF_m3GHUtZJxQzobvD_iWxYVClAAJuAgACh4hSOhXuVi2-7-xQHgQ')
+    bot.sendSticker(chat_id, 'AAMCBAADGQEAAQ0fmmG_nax3RbPwSXjGXiT3Xs7b6VMVAAKIDAAClH0AAVJwlIstH3im4gEAB20AAyME')
     bot.sendMessage(chat_id, "can't download one of them")
 
 def downloader(link,chat_id,type):
